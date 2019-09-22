@@ -4,6 +4,7 @@ import controllers.CollocateController;
 import controllers.CollocateControllerVisitor;
 import controllers.MoveController;
 import controllers.PutController;
+import controllers.Error;
 import models.Color;
 import models.Coordinate;
 import utils.IO;

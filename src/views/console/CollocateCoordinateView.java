@@ -2,7 +2,7 @@ package views.console;
 
 import controllers.CoordinateController;
 import controllers.CoordinateControllerVisitor;
-import utils.Coordinate;
+import models.Coordinate;
 import utils.IO;
 
 abstract class CollocateCoordinateView implements CoordinateControllerVisitor {
