@@ -1,4 +1,9 @@
 package utils;
 
-public class Direction {
+public enum Direction {
+    VERTICAL,
+    HORIZONTAL,
+    DIAGONAL,
+    INVERSE,
+    NON_EXISTENT;
 }
