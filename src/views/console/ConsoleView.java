@@ -1,5 +1,6 @@
 package views.console;
 
+import controllers.ContinueController;
 import main.View;
 
 import controllers.CollocateController;

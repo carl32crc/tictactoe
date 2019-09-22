@@ -1,4 +1,7 @@
 package models;
 
-public class Color {
+public enum Color {
+    XS,
+    OS,
+    NONE;
 }

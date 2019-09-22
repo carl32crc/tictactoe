@@ -1,4 +1,8 @@
 package models;
 
-public class State {
+public enum State {
+    INITIAL,
+    IN_GAME,
+    FINAL,
+    EXIT;
 }
