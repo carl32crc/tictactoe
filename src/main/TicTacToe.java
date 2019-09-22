@@ -1,3 +1,5 @@
+package main;
+
 import controllers.OperationController;
 import controllers.local.LocalLogic;
 import views.console.ConsoleView;

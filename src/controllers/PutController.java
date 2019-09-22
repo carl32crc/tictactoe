@@ -1,4 +1,9 @@
 package controllers;
 
-public class PutController {
+import models.Coordinate;
+
+public interface PutController extends CollocateController {
+
+    Error validateTarget(Coordinate target);
+
 }

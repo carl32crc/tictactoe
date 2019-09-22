@@ -1,4 +1,8 @@
 package controllers;
 
-public class StartController {
+public interface StartController extends OperationController,
+        PresenterController {
+
+    void start(int users);
+
 }

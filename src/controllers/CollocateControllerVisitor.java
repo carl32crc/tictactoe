@@ -1,4 +1,8 @@
 package controllers;
 
-public class CollocateControllerVisitor {
+public interface CollocateControllerVisitor {
+
+    void visit(PutController putController);
+
+    void visit(MoveController moveController);
 }
